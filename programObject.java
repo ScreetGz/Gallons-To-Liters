@@ -13,6 +13,7 @@ import java.util.Scanner;
  */
 public class programObject {
     public static void main(String[] args) {
+        try{
         Scanner scan = new Scanner(System.in);
         
         int inputanUser = 0;
@@ -23,5 +24,8 @@ public class programObject {
         
         Double hasilAkhir = inputanUser*nilaiGallon;
         System.out.println("Hasil dalam Litter adalah :" +hasilAkhir);
+        }catch(Exception err){
+        System.out.println("Masukkan angka!");
+        }
     }
 }
