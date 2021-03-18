@@ -15,13 +15,13 @@ public class programObject {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        Double inputanUser;
+        int inputanUser = 0;
         System.out.println("Inputkan nilai Gallons : ");
-        inputanUser = scan.nextDouble();
+        inputanUser = scan.nextInt();
         
         Double nilaiGallon = 3.785;
         
         Double hasilAkhir = inputanUser*nilaiGallon;
-        System.out.println("Hasil dalam Liter adalah :" +hasilAkhir);
+        System.out.println("Hasil dalam Litter adalah :" +hasilAkhir);
     }
 }
